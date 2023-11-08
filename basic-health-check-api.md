@@ -18,4 +18,4 @@ class HealthController {
 ```
 
 #### 3. Open postman
-#### 4. Hit **http://localhost:8080/api/health** to check the output
+#### 4. Hit ```http://localhost:8080/api/health``` to check the output
