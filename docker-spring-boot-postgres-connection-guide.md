@@ -11,7 +11,7 @@ spring.jpa.hibernate.ddl-auto=update
 ```
 
 #### 4. Create ```dockerfile``` in directory
-```
+```docker
 #FROM amazoncorretto:17-alpine-jdk
 #
 ## Create a directory
@@ -49,7 +49,7 @@ CMD ["java", "-jar", "./build/libs/crud-0.0.1-SNAPSHOT.jar"]
 ```
 
 #### 5. Create ```docker-compose.yml``` file in directory
-```
+```docker
 version: '3'
 services:
   postgres:
