@@ -9,6 +9,11 @@ spring.datasource.password=postgres
 spring.datasource.driver-class-name=org.postgresql.Driver
 spring.jpa.hibernate.ddl-auto=update
 ```
+#### 3.1 Run gradle command to build the app
+```bash
+./gradlew clean build
+```
+
 
 #### 4. Create ```dockerfile``` in directory
 ```docker
